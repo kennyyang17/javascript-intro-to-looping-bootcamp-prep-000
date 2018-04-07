@@ -22,15 +22,14 @@ return 'done'
 }
 }
 
-
-
-function doWhileLoop(array) {
-  function maybeTrue() {
+function maybeTrue() {
   return Math.random() >= 0.5
 }
 
+
+function doWhileLoop(array) {
   do { maybeTrue()
-      if (arrray.length > 0) {
+      if (array.length > 0) {
       array.pop()
       }
     
